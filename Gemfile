@@ -37,12 +37,19 @@ gem 'jquery-rails', '~> 4.3', '>= 4.3.1'
 gem 'devise', '~> 4.4', '>= 4.4.3'
 gem 'bootstrap_form', '~> 2.7'
 
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   # Adds support for Capybara system testing and selenium driver
   gem 'capybara', '~> 2.13'
   gem 'selenium-webdriver'
+  gem 'rspec-rails', '~> 3.7', '>= 3.7.2'
+  gem 'factory_girl_rails', '~> 4.9'
+  gem 'rails-controller-testing', '~> 1.0', '>= 1.0.2'
+  gem 'headless', '~> 2.3', '>= 2.3.1'
+  gem 'poltergeist', '~> 1.17'
+  gem 'database_cleaner', '~> 1.6', '>= 1.6.2'
 end
 
 group :development do
