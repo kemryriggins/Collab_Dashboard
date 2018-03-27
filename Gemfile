@@ -36,6 +36,7 @@ gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
 gem 'jquery-rails', '~> 4.3', '>= 4.3.1'
 gem 'devise', '~> 4.4', '>= 4.4.3'
 gem 'bootstrap_form', '~> 2.7'
+gem 'faker', '~> 1.8', '>= 1.8.7'
 
 
 group :development, :test do
